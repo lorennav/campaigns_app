@@ -58,6 +58,7 @@ To configure the project:
 
 To install the dependencies:
 
+`bin/rails javascript:install:esbuild`
 `rails bundle install`
 
 And to run the app:
