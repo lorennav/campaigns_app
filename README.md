@@ -3,17 +3,17 @@
 This is a Rails app with Turbowire, Stimulus.js and Tailwind CSS.
 The goal is to display the campaigns of the app following an specific set of requirements.
 
-*Create a Rails App, using esbuild and Tailwind*
-*Create a Campaign model with title, description, state, publication_date and position attributes*
-*Create controller, routes and views to display campaigns*
-*Display campaigns in a table with two columns: title, state*
-*Order campaigns by state (published, draft, archived) and position (from the latest to the first published)*
-*Open an specific campaign in a pop-up, achieve that using stimulus and turbowire*
-*Apply tailwind style*
-*Apply Tests*
+- *Create a Rails App, using esbuild and Tailwind*
+- *Create a Campaign model with title, description, state, publication_date and position attributes*
+- *Create controller, routes and views to display campaigns*
+- *Display campaigns in a table with two columns: title, state*
+- *Order campaigns by state (published, draft, archived) and position (from the latest to the first published)*
+- *Open an specific campaign in a pop-up, achieve that using stimulus and turbowire*
+- *Apply tailwind style*
+- *Apply Tests*
 
 
-[Lorenna Vieira](mailto:lorennasv@gmail.com)
+Any questions please email me at [Lorenna Vieira](mailto:lorennasv@gmail.com)
 
 ## Proposed Solution
 
@@ -28,7 +28,7 @@ The goal is to display the campaigns of the app following an specific set of req
 - Added a modal stimulus controller to remove the hidden class from the modal
 - Added turbo-frames to encapisulate the modal in the index view
 
-### [Click here to see Demo]([https://www.loom.com/share/8aab3b3a21a74f07ae382632492e313a?sid=0c61018b-5182-4e0e-868f-f3a6215c22c1])
+### [Click here to see Demo](https://www.loom.com/share/8aab3b3a21a74f07ae382632492e313a?sid=0c61018b-5182-4e0e-868f-f3a6215c22c1)
 
 ## Screenshots
 ![alt text](docs/images/index.png)
