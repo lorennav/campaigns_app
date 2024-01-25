@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GocertifyCampaigns</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-visit-control" content="reload">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+  </head>
+
+  <body class="bg-blueGray-50">
+    <main class="container mx-auto px-4 sm:px-8">
+      <%= yield %>
+    </main>
+  </body>
+</html>
