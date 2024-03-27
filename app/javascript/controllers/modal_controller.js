@@ -7,9 +7,6 @@ export default class extends Controller {
   open(event) {
     const modal = document.getElementById('modal');
     modal.classList.remove('hidden');
-
-    const frame = document.getElementById('modal_frame');
-    frame.src = this.urlValue;
   }
 
   close() {

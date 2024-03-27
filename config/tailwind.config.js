@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
@@ -14,6 +15,12 @@ module.exports = {
       },
     },
   },
+  safelist: [
+      'bg-green-100',
+      'text-green-600',
+      'bg-orange-100',
+      'text-orange-600'
+  ],
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),

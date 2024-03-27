@@ -1,4 +1,4 @@
-## gocertify Campaigns App
+## Tailwind + Stimulus Campaigns App
 
 This is a Rails app with Turbowire, Stimulus.js and Tailwind CSS.
 The goal is to display the campaigns of the app following an specific set of requirements.
@@ -27,8 +27,6 @@ Any questions please email me at [Lorenna Vieira](mailto:lorennasv@gmail.com)
 - Added to the model humanized methods to humanize the state and position and keep the code DRY
 - Added a modal stimulus controller to remove the hidden class from the modal
 - Added turbo-frames to encapisulate the modal in the index view
-
-### [Click here to see Demo](https://www.loom.com/share/8aab3b3a21a74f07ae382632492e313a?sid=0c61018b-5182-4e0e-868f-f3a6215c22c1)
 
 ## Screenshots
 ![alt text](docs/images/index.png)
@@ -81,5 +79,4 @@ You can run the unit tests using:
 4. Add Decorator design Pattern and move the #humanized methods from the model to the decorator 
 5. Add a search bar to filter the campaigns by title 
 6. Add filters to order the campaigns by state and position 
-7. Improve the show when accessed through the url, show the index behind 
-8. Deploy the app
+7. Improve the show when accessed through the url, show the index behind

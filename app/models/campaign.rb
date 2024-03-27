@@ -9,7 +9,7 @@ class Campaign < ApplicationRecord
   }
   scope :states_keys, -> { states.keys }
   scope :ordered_by_state_and_position, lambda {
-    order(Arel.sql('CASE state WHEN 1 THEN 1 WHEN 0 THEN 2 ELSE 3 END, position ASC'))
+    in_order_of(:state, %w[published draft archived]).order(position: :desc)
   }
 
   def humanized_title
