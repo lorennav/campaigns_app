@@ -1,6 +1,6 @@
 <tr id="tr-<%= campaign.id %>" class="cursor-pointer hover:bg-gray-100">
   <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700 ">
-    <%= link_to campaign.humanized_title, campaign_path(campaign), data: { turbo_frame: "modal_frame" }, class: "stretched-link" %>
+    <%= link_to campaign.humanized_title, campaign_path(campaign), data: { turbo_frame: "modal_frame" }, class: "stretched-link", id: "desc-#{campaign.id}" %>
   </th>
   <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
     <span class="inline-block whitespace-nowrap rounded-full <%= state_badge(campaign)%>"><%= campaign.humanized_state %></span>
